@@ -51,6 +51,7 @@ export {
   Flex,
   ConditionalRender,
   OnlyForHome,
+  TopNav,
 }
-export { default as TopNav } from "./TopNav"
+
 
