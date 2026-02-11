@@ -77,16 +77,9 @@ const config: QuartzConfig = {
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
-      emitters: [
-  Plugin.AliasRedirects(),
-  Plugin.ComponentResources(),
-
-  Plugin.Explorer({
-    title: "Índice",
-  }),
-
-  Plugin.ContentPage(),
-
+      Plugin.AliasRedirects(),
+      Plugin.ComponentResources(),
+      Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
