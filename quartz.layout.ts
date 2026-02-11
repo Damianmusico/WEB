@@ -4,20 +4,10 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [
-    Component.PageTitle(),
-    Component.Spacer(),
-    Component.TopNav({
-      links: [
-        { label: "Now", href: "/now" },
-        { label: "About", href: "/about" },
-      ],
-    }),
-  ],
+  header: [],
   afterBody: [],
   footer: Component.Footer(),
 }
-
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
