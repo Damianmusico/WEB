@@ -9,9 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "D Acero",
-    layout: {
-    left: [],
-    },
+  
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
