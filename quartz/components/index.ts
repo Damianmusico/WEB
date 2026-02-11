@@ -51,4 +51,5 @@ export {
   Flex,
   ConditionalRender,
   OnlyForHome,
+  TopNav,
 }
