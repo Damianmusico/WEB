@@ -53,5 +53,7 @@ export {
   OnlyForHome,
   TopNav,
 }
+export { default as TopNav } from "./TopNav"
+
 
 
