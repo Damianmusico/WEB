@@ -9,16 +9,26 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "D Acero",
+
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
+
     locale: "es-ES",
     baseUrl: "damianmusico.github.io/WEB",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
+
+    // ✅ Change "Explorador" to your preferred label here
+    components: {
+      explorer: {
+        title: "Índice",
+      },
+    },
+
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -95,3 +105,4 @@ const config: QuartzConfig = {
 }
 
 export default config
+
